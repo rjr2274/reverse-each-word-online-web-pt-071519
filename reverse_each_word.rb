@@ -1,7 +1,9 @@
 require 'pry'
 def reverse_each_word(user_input)
-   user_input.split(" ").map do |word|
-   word.reverse
+  reversed_words = []
+
+  user_input.split(" ").each do |word|
+    reversed_words << word.reverse
   end
-  user_input
+ reversed_words.join(" ")
 end
