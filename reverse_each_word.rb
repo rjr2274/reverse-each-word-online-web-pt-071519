@@ -4,5 +4,3 @@ def reverse_each_word(user_input)
    word.reverse
   end
 end
-
-
